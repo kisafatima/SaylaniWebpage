@@ -1,0 +1,430 @@
+/* *{
+    
+} */
+#mymaind1{
+    background-color: rgb(28, 92, 189);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#mydiv1,#mydiv2,#mydiv3{
+    display: inline-block;
+    padding: 15px 10px 5px 10px;    
+}
+#mydiv1{
+    text-align: center;
+    flex:2;
+    padding-left: 45px ;
+}
+#mydiv2{
+    text-align: center;
+    flex:4;
+}
+#mydiv3{
+    flex:2;
+    flex-wrap: wrap;
+    padding-right: 40px;
+    justify-content: space-evenly;
+}
+b{
+    size: 22px;
+    margin: 0px;
+    padding: 5px 5px 5px 5px;
+    color: white;
+    /* background-color:mediumblue; */
+    cursor: pointer;
+}
+/* #fb{
+    color: mediumblue;
+    background-color: white;
+
+    border-width: 1px 0px 1px 0px; */
+b:hover{
+    background-color: rgb(23, 110, 240);
+}
+#mainpara{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    display: inline;
+    color: white;
+}
+.but{
+    font-size: 12px;
+    color: grey;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 6px 8px 6px 8px;
+    border-collapse: separate;
+}
+.dropbtn {
+    /* background-color: white; */
+    color: black;
+    padding: 8px 14px 8px 14px;
+    margin: 20px 0px 10px 0px;
+    font-size: 15px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    bottom: 8px;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+    font-size: 14px;
+    /* margin-top: 10px; */
+    z-index: 1 !important;
+}
+
+.dropdown-content a {
+    color: grey;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    display: block;
+    padding-left: 15px;
+}
+#home{
+  margin-left: 40px;
+}
+.dropbtn:hover,#home
+{
+    cursor: pointer;
+    background-color: rgb(28, 92, 189);
+    border-radius: 30px;
+    color: white;
+}
+#aboutdiv{
+    /* justify-content: space-around; */
+    /* padding: 20px 40px 0px 0px; */
+    display: inline-block;
+}
+#logod{
+    padding: 0px 60px 0px 60px;
+    display: inline-block;
+}
+
+#mymaind2{
+    z-index: 1;
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: space-around !important;
+    background-color: rgb(248, 241, 241) !important;
+}
+#myimg1{
+    width:210px !important;   
+    height:50px !important;
+    padding: 0px 0px 0px 20px !important;
+}
+.dropdown-content a:hover {background-color: #316DC3; color: white; padding-left: 20px; text-decoration: none; }
+.dropdown:hover .dropdown-content {display: block;  }
+.dropdown:hover .dropbtn {background-color: #316DC3; border-radius: 20px; color: white;}
+
+
+
+
+h1{
+    line-height: 1.6;
+    padding-top: 60px;   
+    /* font-family: 'Merriweather', serif; */
+    font-weight: 550;
+    color:#316DC3;
+    font-size: 26pt;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+#carouselExampleInterval{
+    z-index: -1;
+}
+
+#mymaind3{
+    padding: 0px 150px 80px 150px ;
+}
+#top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    opacity: 20%;
+}
+#top:hover{
+    opacity:100% ;
+}
+.para{
+    clear: both;
+    font-size: 15px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
+    line-height: 1.6;
+}
+#slidepara{
+    margin: 10px;
+    text-align: center;
+    background-color:#316DC3;
+    color: white;   
+}
+span{
+    color: rgb(0, 255, 0);
+}
+.green{
+    color: rgb(0, 255, 0);
+    font-size: 18px;    
+}
+.h1span{
+    color: #427900;
+}
+#mymaind4{
+    /* font-family:  */
+    font-family: 'Merriwheather';
+    background-color:#316DC3;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.blued{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin: 50px 40px 50px 40px;
+}
+#mymaind4 div{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.line{
+    text-align: center;
+    font-weight: 900;
+    padding: 0px 0px 50px 0px ;
+}
+.inaline{
+    color: #427900;   
+    display: inline-block;
+    line-height: 0;
+}
+
+#mymaind5{
+    /* display: flex; */
+    width: auto;
+    padding: 0px 80px 30px 80px;   
+    justify-content: space-around;
+    background-color: rgb(238, 234, 234);
+}
+#wd{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.whited{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color:#316DC3;
+    /* border: 0px solid white; */
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px grey;
+    padding:30px 55px 15px 55px;
+    margin: 0px 13px 26px 13px;
+    display: inline-block;
+    width: 360px;
+    height: 200px;
+}
+h3{
+    font-size: 22px;
+    line-height: 3;
+}
+#mymaind6{
+    padding: 0px 90px 0px 93px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mission{
+    font-size: 26px;
+    text-align: left;
+    /* line-height: 0px; */
+}
+.mistxt{
+    color:#316DC3;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    display: inline;
+}
+#missions{
+    width: 710px;
+    height:500px ;
+}
+.mis{
+    background-color: rgb(238, 234, 234);
+    margin: 30px 20px 0px 0px;
+    width: 330px;
+    padding: 20px 80px 20px 30px;
+    display: inline-block;
+    height: 75px;
+}
+#upcome{
+    display: inline-block;
+    margin: 10px;
+}
+#slidepara2{
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+#imgdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 0px 100px 0px;
+}
+#imgdiv img{
+    padding-right: 5px;
+}
+#mymaind8{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(49, 48, 48);
+    padding: 80px 100px 80px 100px;
+    justify-content: space-around;
+}
+#contact{
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.637);
+    font-size: 14px;
+    width: 340px;
+    height: 200px;
+    /* background-color: lightcoral ; */
+    display: inline-block;
+}
+#useful{
+    
+    width: 300px;
+    height: 200px;
+    /* background-color: indigo; */
+    /* border-bottom: 1px solid rgb(49, 48, 48);  */
+    font-weight: bold;
+    /* line-height: 0;  */
+    color: white;
+    margin:0px 50px 0px 50px; 
+}
+hr{
+    font-weight: bolder;
+    background-color:  #427900;
+}
+#connect{
+    font-weight: bold;
+    /* display: inline-block; */
+    width: 300px;
+    height: 200px;
+    color: white;
+}
+i{
+    size: 22px;
+    padding: 0px 0px;
+    margin: 0px;
+    padding: 8px 8px 8px 8px;
+    background-color:#316DC3 ;
+    color: white;
+    border-radius: 20px;
+    /* background-color:mediumblue; */
+    cursor: pointer;
+}
+#fb{
+    padding: 8px 12px 8px 12px;
+}
+#lastdiv{
+    background-color: #316DC3;
+}
+#cr{
+    padding: 10px 0px 10px 100px;
+    color: white;
+    font-size: 12px;
+}
+em{
+    size: 22px;
+    margin: 0px;
+    padding: 5px 5px 5px 5px;
+    color: #427900;
+}
+/*  */
+
+
+@media only screen and (max-width:1000px)
+{
+    #mymaind1{
+        display: flex;
+        flex-direction: column;
+    }
+    #mydiv3{
+        text-align: center;
+        padding: 10px 10px;
+    }
+    #logod{
+        padding: 0px;
+    }
+    #mymaind3{
+        padding: 0px 40px 0px 40px; 
+    }
+    .whited{
+        width: 300px;
+    }
+    /* .blued{
+        display: inline-block;
+        margin: 50px 10px 50px 10px;
+        
+    } */
+    /* #mymaind4 {
+        display: block;
+        width: auto; */
+        /* flex-direction: column; */
+    }
+    
+    /* #bd1,#bd3{
+        display:outline;
+    }
+    #bd2,#bd4{
+        display: inline-block;
+    } */
+
+
+
+@media only screen and (max-width:760px)
+{
+    #mymaind4{
+        display: flex;
+        flex-direction: column;
+    }
+    #wd{
+        display: flex;
+        flex-direction: column;   
+    }
+    .whited{
+        width: auto;
+    }
+    #upcome{
+        padding-top: 50px;
+    }
+
+}
+@media only screen and (max-width:600px)
+{
+        #mymaind8{
+        padding: 40px 5px 10px 5px ;
+    }
+    #useful{
+        padding: 0px;
+        margin:40px 0px 0px 0px;
+    }
+    #connect{
+        margin: 0px 0px 0px 0px;
+    }
+}
